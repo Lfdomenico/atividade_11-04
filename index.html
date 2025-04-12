@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(248, 249, 246);
+        }
+         #divCentro{
+            height: 420px;
+            width: 500px;
+            margin-left: 400px;
+            background-color: rgb(255, 255, 255);
+            border: 2px solid;
+            text-align: center;
+        } 
+
+        .label{
+            font-size: 1.1em;
+        }
+
+    </style>
+</head>
+<body>
+    <header style="text-align: center;font-size: 3em;">Teste Site - Formulário</header>
+    <hr><br>
+    <div id="divCentro">
+    <form action="">
+    <label for="nome" class="label">Nome: </label>
+    <input type="text" id="nomeUsuario"required placeholder="Nome">
+    <br><br>
+    <label for="email" class="label">Email:</label>
+    <input type="text" id="emailUsuario" required placeholder="Email">
+    <br><br>
+    <label class="label" for="senha" id="senhaUsuario">Senha:</label>
+    <input type="text" required placeholder="Senha">
+    <br><br>
+    <label for="telefone" class="label">Telefone: </label>
+    <input type="text" required placeholder="(00) 00000-0000">
+    <br><br>
+    <label class="label" for="dataNascimento">Data de Nascimento:</label>
+    <input type="date" id = "dataNascimento" required>
+    <br><br>
+    <label for="comentário" class="label">Comentários:</label><br>
+    <textarea name="comment" id="comentário" rows="5" cols="25">
+    </textarea>
+    <br><br>
+    <label for="arquivo" class="label">Arquivo:</label>
+    <input type="file" id="file" accept="image/JPEG, image/PNG">
+    <br><br>
+    <input type="submit"><br>
+     <input type="reset">
+    
+    
+</div>
+</form>
+</body>
+</html>
